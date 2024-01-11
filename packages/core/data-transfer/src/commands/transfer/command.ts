@@ -51,6 +51,9 @@ const command = ({ command }: { command: Command }) => {
         async (thisCommand) => {
           assertUrlHasProtocol(thisCommand.opts().from, ['https:', 'http:']);
           if (!thisCommand.opts().fromToken) {
+            console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            console.log("ATTACHED PACKAGE @strapi/data-transfer")
+            console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             const answers = await inquirer.prompt([
               {
                 type: 'password',

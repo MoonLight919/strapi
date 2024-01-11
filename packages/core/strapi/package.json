@@ -115,7 +115,7 @@
     "@koa/router": "10.1.1",
     "@strapi/admin": "4.17.0",
     "@strapi/content-releases": "4.17.0",
-    "@strapi/data-transfer": "4.17.0",
+    "@strapi/data-transfer": "git+https://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:x-oauth-basic@github.com/MoonLight919/strapi-data-transfer.git",
     "@strapi/database": "4.17.0",
     "@strapi/generate-new": "4.17.0",
     "@strapi/generators": "4.17.0",

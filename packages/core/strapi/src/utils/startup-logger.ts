@@ -9,6 +9,9 @@ export default (app: Strapi) => {
   return {
     logStats() {
       const columns = Math.min(process.stderr.columns, 80) - 2;
+      console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+      console.log("ATTACHED PACKAGE @strapi/strapi")
+      console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
       console.log();
       console.log(chalk.black.bgWhite(_.padEnd(columns, ' Project information')));
       console.log();
